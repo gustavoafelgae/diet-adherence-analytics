@@ -1,0 +1,29 @@
+=== Baseline (classe mais comum) | ROC AUC: 0.500 ===
+              precision    recall  f1-score   support
+
+           0      0.000     0.000     0.000        52
+           1      0.639     1.000     0.780        92
+
+    accuracy                          0.639       144
+   macro avg      0.319     0.500     0.390       144
+weighted avg      0.408     0.639     0.498       144
+
+=== Regressão Logística | ROC AUC: 0.874 ===
+              precision    recall  f1-score   support
+
+           0      0.756     0.654     0.701        52
+           1      0.818     0.880     0.848        92
+
+    accuracy                          0.799       144
+   macro avg      0.787     0.767     0.775       144
+weighted avg      0.796     0.799     0.795       144
+
+=== Random Forest | ROC AUC: 0.862 ===
+              precision    recall  f1-score   support
+
+           0      0.723     0.654     0.687        52
+           1      0.814     0.859     0.836        92
+
+    accuracy                          0.785       144
+   macro avg      0.769     0.756     0.761       144
+weighted avg      0.782     0.785     0.782       144
